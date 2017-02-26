@@ -1,13 +1,13 @@
 {
-  "name": "wc-router",
+  "name": "x-router",
   "version": "0.2.0",
   "description": "A lightweight client-side router built with webcomponents.",
-  "main": "wc-router.html",
+  "main": "x-router.html",
   "license": "MIT",
-  "homepage": "https://github.com/emilbillberg/wc-router",
+  "homepage": "https://github.com/emilbillberg/x-router",
   "repository": {
     "type": "git",
-    "url": "git://github.com/emilbillberg/wc-router.git"
+    "url": "git://github.com/emilbillberg/x-router.git"
   },
   "ignore": [
     "bower_components",

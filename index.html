@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
 
     <base href="/">
-    <title>wc-router</title>
+    <title>x-router</title>
 
     <script src="bower_components/webcomponentsjs/webcomponents-loader.js"></script>
     
@@ -44,17 +44,17 @@
   <body>
     
     
-    <wc-router id="route2">
-        <wc-path name="shoes" pattern="^/shoes$"></wc-path>
-        <wc-path name="jackets" pattern="^/jackets$"></wc-path>
-    </wc-router>
+    <x-router id="route2">
+        <x-route name="shoes" pattern="^/shoes$"></x-route>
+        <x-route name="jackets" pattern="^/jackets$"></x-route>
+    </x-router>
 
-    <wc-router main id="route1">
-        <wc-path name="home" pattern="^/$"></wc-path>
-        <wc-path name="about" pattern="^/about$"></wc-path>
-        <wc-path name="category" pattern="^/category$"></wc-path>
-        <wc-path name="404" pattern="^/.*$"></wc-path>
-    </wc-router>
+    <x-router main id="route1">
+        <x-route name="home" pattern="^/$"></x-route>
+        <x-route name="about" pattern="^/about$"></x-route>
+        <x-route name="category" pattern="^/category$"></x-route>
+        <x-route name="404" pattern="^/.*$"></x-route>
+    </x-router>
 
     <h1>Demo & Debug</h1>
     <div class="route-container">
@@ -80,7 +80,7 @@
         <a href="/category/jackets">/category/jackets</a>
         <a href="/about" target="_blank">/about _blank</a>
         <a href="tel:070123456">tel:070123456</a>
-        <a href="mailto:wc-router@gmail.com">mailto:wc-router@gmail.com</a>
+        <a href="mailto:x-router@gmail.com">mailto:x-router@gmail.com</a>
         <h3>Router push() & replace()</h3>
         <button id="button1">/category/shoes</button>
         <button id="button2">/category/sweaters</button>
@@ -128,7 +128,7 @@
 
     </script>
     
-    <link rel="import" href="wc-router.html">
+    <link rel="import" href="x-router.html">
 
   </body>
 
