@@ -1,5 +1,8 @@
 [![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/emilbillberg/x-router)
 
+# DEPRECATED
+This repository is now deprecated and has been moved to [wc-router](https://github.com/emilbillberg/wc-router)
+
 # x-router
 A lightweight client-side router built with webcomponents.
 - [Documentation](https://www.webcomponents.org/element/emilbillberg/x-router/x-router)
